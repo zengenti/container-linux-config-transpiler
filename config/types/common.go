@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"reflect"
 
-	ignTypes "github.com/coreos/ignition/config/v2_3/types"
+	ignTypes "github.com/coreos/ignition/config/v2_3_experimental/types"
 	"github.com/coreos/ignition/config/validate/report"
 
 	"github.com/zengenti/container-linux-config-transpiler/config/platform"

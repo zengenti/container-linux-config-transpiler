@@ -18,7 +18,7 @@ import (
 	"errors"
 	"net/url"
 
-	ignTypes "github.com/coreos/ignition/config/v2_3/types"
+	ignTypes "github.com/coreos/ignition/config/v2_3_experimental/types"
 	"github.com/coreos/ignition/config/validate/astnode"
 	"github.com/coreos/ignition/config/validate/report"
 )

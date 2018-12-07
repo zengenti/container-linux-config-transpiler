@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"github.com/coreos/go-semver/semver"
-	ignTypes "github.com/coreos/ignition/config/v2_3/types"
+	ignTypes "github.com/coreos/ignition/config/v2_3_experimental/types"
 	"github.com/coreos/ignition/config/validate/astnode"
 	"github.com/coreos/ignition/config/validate/report"
 )
@@ -28,7 +28,7 @@ var (
 	EtcdVersionTooOld      = errors.New("Etcd version specified is not valid (too old)")
 	EtcdMinorVersionTooNew = errors.New("Etcd minor version specified is too new, only options available in the previous minor version will be accepted")
 	EtcdMajorVersionTooNew = errors.New("Etcd version is not valid (too new)")
-	OldestEtcd             = *semver.New("2.3.0")
+	OldestEtcd             = *semver.New("2.3.0-experimental")
 	EtcdDefaultVersion     = *semver.New("3.0.0")
 )
 
