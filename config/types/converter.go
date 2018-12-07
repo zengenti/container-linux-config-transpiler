@@ -17,7 +17,7 @@ package types
 import (
 	"reflect"
 
-	"github.com/coreos/container-linux-config-transpiler/config/astyaml"
+	"github.com/zengenti/container-linux-config-transpiler/config/astyaml"
 	ignTypes "github.com/coreos/ignition/config/v2_3/types"
 	"github.com/coreos/ignition/config/validate"
 	"github.com/coreos/ignition/config/validate/astnode"

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coreos/container-linux-config-transpiler/config/platform"
+	"github.com/zengenti/container-linux-config-transpiler/config/platform"
 )
 
 var (

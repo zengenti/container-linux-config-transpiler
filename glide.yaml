@@ -1,4 +1,4 @@
-package: github.com/coreos/container-linux-config-transpiler
+package: github.com/zengenti/container-linux-config-transpiler
 import:
 - package: github.com/ajeddeloh/yaml
   version: 6b94386aeefd8c4b8470aee72bfca084c2f91da9
@@ -11,7 +11,7 @@ import:
   - config/validate
   - config/validate/report
 - package: github.com/coreos/go-semver
-  version: 5e3acbb5668c4c3deb4842615c4098eb61fb6b1e
+  version: v0.1.0
 - package: github.com/vincent-petithory/dataurl
   version: 9a301d65acbb728fcc3ace14f45f511a4cfeea9c
 - package: github.com/stretchr/testify/assert
