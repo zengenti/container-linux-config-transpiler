@@ -1,5 +1,5 @@
-hash: 65bd2b58962440b2a54e22fd59b73b98e758b053d5fa85245e33d70747ad008a
-updated: 2018-12-07T09:57:26.691006Z
+hash: fc64d47999a0e4add8bb0439bd8a2e635ab034cdc83d36c2590b8010d016c046
+updated: 2018-12-07T10:09:59.809257Z
 imports:
 - name: github.com/ajeddeloh/go-json
   version: 73d058cf8437a1989030afe571eeab9f90eebbbd
@@ -8,7 +8,7 @@ imports:
 - name: github.com/alecthomas/units
   version: 6b4e7dc5e3143b85ea77909c72caf89416fc2915
 - name: github.com/coreos/go-semver
-  version: 294930c1e79c64e7dbe360054274fdad492c8cf5
+  version: 5e3acbb5668c4c3deb4842615c4098eb61fb6b1e
   subpackages:
   - semver
 - name: github.com/coreos/go-systemd
