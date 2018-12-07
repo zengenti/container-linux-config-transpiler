@@ -89,8 +89,8 @@ func init() {
 				newPart := ignTypes.Partition{
 					Label:    partition.Label,
 					Number:   partition.Number,
-					SizeMiB:  size,
-					StartMiB: start,
+					Size:  size,
+					Start: start,
 					GUID:     partition.GUID,
 					TypeGUID: partition.TypeGUID,
 				}
