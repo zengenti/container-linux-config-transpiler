@@ -15,7 +15,7 @@
 package types
 
 import (
-	ignTypes "github.com/coreos/ignition/config/v2_3_experimental/types"
+	ignTypes "github.com/coreos/ignition/config/v2_3/types"
 	"github.com/coreos/ignition/config/validate/astnode"
 	"github.com/coreos/ignition/config/validate/report"
 )

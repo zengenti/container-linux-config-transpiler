@@ -21,7 +21,7 @@ import (
 	"github.com/zengenti/container-linux-config-transpiler/config/astyaml"
 	"github.com/zengenti/container-linux-config-transpiler/config/platform"
 	"github.com/zengenti/container-linux-config-transpiler/config/types"
-	ignTypes "github.com/coreos/ignition/config/v2_3_experimental/types"
+	ignTypes "github.com/coreos/ignition/config/v2_3/types"
 	"github.com/coreos/ignition/config/validate"
 	"github.com/coreos/ignition/config/validate/astnode"
 	"github.com/coreos/ignition/config/validate/report"
