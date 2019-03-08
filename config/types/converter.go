@@ -18,7 +18,7 @@ import (
 	"reflect"
 
 	"github.com/zengenti/container-linux-config-transpiler/config/astyaml"
-	ignTypes "github.com/coreos/ignition/config/v2_3_experimental/types"
+	ignTypes "github.com/coreos/ignition/config/v2_3/types"
 	"github.com/coreos/ignition/config/validate"
 	"github.com/coreos/ignition/config/validate/astnode"
 	"github.com/coreos/ignition/config/validate/report"
@@ -43,7 +43,7 @@ func Convert(in Config, platform string, ast astnode.AstNode) (ignTypes.Config, 
 
 	out := ignTypes.Config{
 		Ignition: ignTypes.Ignition{
-			Version: "2.3.0-experimental",
+			Version: "2.3.0",
 		},
 	}
 
